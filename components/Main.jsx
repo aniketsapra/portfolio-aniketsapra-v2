@@ -7,6 +7,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Home() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -160,6 +161,14 @@ export default function Home() {
               className="hover:text-black dark:hover:text-gray-100 cursor-pointer transition-all duration-300"
             >
               <GitHubIcon sx={{ fontSize: 35 }} />
+            </a>
+          </li>
+          <li>
+            <a
+            href="https://www.upwork.com/freelancers/~0150aadaf4d54cca74?mp_source=share"
+              target="_blank"
+              className="hover:text-black dark:hover:text-gray-100 cursor-pointer transition-all duration-300 text-xl flex items-center justify-center p-1">
+             UpWork
             </a>
           </li>
         </ul>

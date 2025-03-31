@@ -2,14 +2,14 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const ExperienceCard = ({ experience }) => {
   return (
-    <Card className="lg:p-5 bg-transparent shadow-none backdrop-blur-sm flex lg:flex-row gap-6">
+    <Card className="lg:p-5 bg-transparent shadow-none backdrop-blur-sm flex lg:flex-row lg:gap-6 gap-2">
       {/* Time on the left */}
       <div className="lg:w-1/4 text-gray-700 dark:text-gray-400 text-left">
         <h3>{experience.time}</h3>
       </div>
 
       {/* Content on the right */}
-      <div className="lg:w-3/4 flex flex-col space-y-1">
+      <div className="lg:w-3/4 flex flex-col space-y-1 mb-10 lg:mb-2">
         <h3 className="text-lg lg:text-xl font-semibold text-gray-900 dark:text-gray-200">{experience.role}</h3>
         <p className="text-gray-900 dark:text-gray-200">{experience.company}</p>
         <CardContent className="mt-2 text-gray-700 dark:text-gray-400 text-sm p-0 transition-all duration-300">
