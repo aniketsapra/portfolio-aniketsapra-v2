@@ -3,10 +3,19 @@ import pedros from '../../src/assets/pedros.png';
 import thriftbazaar from '../../src/assets/thriftbazaar.png';
 import turfsync from '../../src/assets/turfsync.png';
 import sapradesigns from '../../src/assets/sapradesigns.png';
+import pharmize from '../../src/assets/pharmize.png';
 
 export const projects = [
     {
         id: 1,
+        name:"Pharmize",
+        description:"Pharmize is a full-stack admin web application designed to streamline pharmacy operations. Pharmize allows administrators to manage customers, suppliers, and medicines, generate invoices, monitor stock levels, and access insightful dashboards and reports. Built with performance and usability in mind, the app ensures smooth day-to-day inventory and sales management.",
+        link:"https://pharmize.vercel.app/",
+        tech:["React.js","Javascript","HTML","CSS","TailwindCSS","FastAPI", "Python", "MySQL"],
+        thumbnail:pharmize,
+    },
+    {
+        id: 2,
         name:"TurfSync",
         description:"TurfSync is a full-stack web application designed for seamless sports turf booking, ensuring hassle-free reservations while preventing double bookings using MongoDB. it offers a fast and responsive user experience. To enhance security, JWT authentication is implemented for safe user login and data protection. Additionally, optimized slot availability checks have reduced booking errors by 50%, making the system more efficient and reliable.",
         link:"https://turfnext-frontend.onrender.com/",
@@ -14,7 +23,7 @@ export const projects = [
         thumbnail:turfsync,
     },
     {
-        id: 2,
+        id: 3,
         name:"ThriftBazaar",
         description:"ThriftBazaar is a thrift store application designed for buying and reselling pre-owned items, Focused on delivering a seamless shopping experience, the frontend was developed with responsive design principles, ensuring smooth navigation across all devices. Performance optimizations led to a 40% improvement in page load speeds, enhancing browsing efficiency and user engagement.",
         link:"https://thriftbazaar.vercel.app/",
@@ -22,7 +31,7 @@ export const projects = [
         thumbnail:thriftbazaar,
     },
     {
-        id: 3,
+        id: 4,
         name:"SapraDesigns",
         description:"Sapra Designs is a personal project developed to showcase an interior design business, featuring a sleek and modern front-end. The application delivers a responsive and dynamic user interface, ensuring a visually appealing and seamless browsing experience across all devices.",
         link:"https://sapradesigns.netlify.app/",
@@ -30,7 +39,7 @@ export const projects = [
         thumbnail:sapradesigns,
     },
     {
-        id: 4,
+        id: 5,
         name:"Nike Clone",
         description:"Nike Clone is a responsive frontend of an e-commerce web application replicating the look and feel of the Nike store, the platform features an intuitive UI and smooth navigation. With a mobile-friendly layout and optimized performance, the clone provides a fast and engaging user experience across all devices.",
         link:"https://nikeshoescopy.netlify.app/",
@@ -38,7 +47,7 @@ export const projects = [
         thumbnail:nike,
     },
     {
-        id: 5,
+        id: 6,
         name:"Pedro's Pizzaria Clone",
         description:"Pedro's Pizzaria is a sleek and interactive website designed to showcase a pizza restaurant, Featuring a responsive and user-friendly interface.",
         link:"https://pizzapedro.netlify.app/",
