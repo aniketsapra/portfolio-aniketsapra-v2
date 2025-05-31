@@ -88,8 +88,8 @@ export default function Home() {
           <div>
             <h1 className="text-3xl md:text-5xl text-black dark:text-gray-200 font-bold mb-2">Aniket Sapra</h1>
             <h2 className="text-xl lg:text-2xl text-black dark:text-gray-200 mb-2">Full-Stack Developer</h2>
-            <p className="text-md mb-4 lg:mb-10">
-              I build modern, scalable, and user-friendly web solutions using the MERN Stack.
+            <p className="text-sm mb-4 lg:mb-10">
+              I craft modern, scalable, and intuitive web applications using the MERN stack, FastAPI, and Python — blending clean design with robust backend architecture.
             </p>
           </div>
 

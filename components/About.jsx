@@ -11,31 +11,32 @@ function About() {
       </div>
 
       <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-10 lg:mb-30">
-  Hi, I’m a Full-Stack Developer passionate about crafting accessible, pixel-perfect user interfaces and building robust, scalable backend systems. I love working at the intersection of design and development, ensuring that every experience I create is not only visually appealing but also optimized for performance and usability.
+  Hi, I’m a <span className="text-gray-900 font-bold dark:font-normal dark:text-gray-200">Full-Stack Developer</span> passionate about crafting accessible, pixel-perfect user interfaces and building robust, scalable backend systems. I enjoy working at the intersection of design and development, ensuring that every experience I create is not only visually engaging but also optimized for performance and usability.
   
   <span className="block">&nbsp;</span>
 
-  Currently, I’m looking for a new role where I can leverage my skills in 
-  <span className="text-gray-900 dark:text-gray-200"> JavaScript, React, Next.js, Node.js, and MongoDB </span>
-  to build impactful applications.
+  My current tech stack includes <span className="text-gray-900 font-bold dark:font-normal dark:text-gray-200">
+  JavaScript, React, Next.js, TailwindCSS, Node.js, Express.js, FastAPI, Python, MySQL and MongoDB, </span>
+  I have hands-on experience giving me the flexibility to work across a wide range of modern web technologies. I specialize in crafting performant, user-centered applications that are not only visually engaging but also robust and maintainable under the hood.
 
   <span className="block">&nbsp;</span>
 
   Previously, I worked at 
-  <span className="text-gray-900 dark:text-gray-200"> Deloitte </span>, developing 
-  <span className="text-gray-900 dark:text-gray-200"> SAP ABAP </span> solutions to meet business requirements. 
+  <span className="text-gray-900 font-bold dark:font-normal dark:text-gray-200"> Deloitte</span>, where I developed 
+  <span className="text-gray-900 font-bold dark:font-normal dark:text-gray-200"> SAP ABAP </span> solutions tailored to complex business requirements. 
   I’ve also freelanced as a 
-  <span className="text-gray-900 dark:text-gray-200"> Next.js Frontend Developer </span>, 
-  helping businesses create dynamic and efficient web applications.
+  <span className="text-gray-900 font-bold dark:font-normal dark:text-gray-200"> Next.js Frontend Developer </span>, 
+  helping businesses launch fast, dynamic, and efficient web platforms.
 
   <span className="block">&nbsp;</span>
 
-  When I’m not coding, you’ll usually find me jogging, reading, spending time with my two cats, or playing video games.
+  Currently, I'm seeking a new opportunity where I can contribute to impactful projects and continue growing as a developer. I’m particularly excited about roles that value clean code, thoughtful design, and full-cycle development—from architecture to deployment.
 
   <span className="block">&nbsp;</span>
 
   Let’s connect and build something awesome!
 </p>
+
 
     </div>
   );
